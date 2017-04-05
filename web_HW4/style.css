@@ -1,0 +1,125 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAYklEQVQYVwFXAKj/AfaEYf8BLw4AtcnTAAsXLwCuuNgA3ePxAP7+AwABsUZL//4dEwDs+vUA0OH2AOXyAgD1APUAMCwzAAGMVl3/1d7gABMZEQD7/gYA5ebvAPr8BgAICAQAs6wlxhjSG20AAAAASUVORK5CYII=");
+}
+
+.container{
+  max-width: 1280px;
+  width: 80%;
+  margin: auto;
+  background: rgba( 255, 255,255,0.4);
+  box-shadow: 0px 0px 300px 0px #ccc;
+}
+
+.header_image > img {
+  width: 200px;
+  display: inline-block;
+}
+
+.header_options, .header_image {
+  display: inline-block;
+  line-height: 151px;
+  vertical-align: top;
+}
+
+.header_options{
+  float: right;
+  font-size: 40px;
+  margin-right: 35px;
+}
+
+.header_options a {
+  padding: 5px 30px;
+  border-style: solid;
+  border-color: rgba(247, 64, 2, 0.6);
+  border-radius: 5px;
+  background-color: rgba(220, 64, 2, 0.6);
+}
+
+.header_options a:hover{
+  background-color: rgb(220, 64, 2);
+}
+
+img {
+  width: 100%;
+}
+
+.body_icon img {
+  width: 35;
+}
+
+footer {
+  background: #ccc;
+}
+
+footer > .container > p {
+  display: inline-block;
+  width: 49%;
+}
+
+.right {
+  text-align: right;
+}
+
+.body_Feeding, .body_Husbandry, .body_Fruit, .body_Slippery{
+  display: block;
+  position: relative;
+  margin-top: 15px;
+}
+
+.block{
+  position: absolute;
+  line-height: 300%;
+  font-size: 60px;
+  color: white;
+  width: 46%;
+  padding: 2%;
+  height: 92%;
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.7) 0%,rgba(125,185,232,0) 100%);
+}
+
+.block.right {
+  background: -webkit-linear-gradient(right, rgba(0,0,0,0.7) 0%,rgba(125,185,232,0) 100%);
+  right: 0;
+}
+
+.block_content{
+  position: absolute;
+  line-height: 300%;
+  font-size: 30px;
+  color: white;
+  width: 50%;
+  padding: 10% 2% 2% 2%;
+  height: 92%;
+}
+
+.block_content.right{
+  right: 0;
+}
+
+footer > .container {
+  background: none !important;
+}
+
+.body_icon {
+  width: 100%;
+  text-align: right;
+  margin-top: 15px;
+  padding: 5px 30px;
+  box-sizing: border-box;
+}
+
+.body_icon p{
+  position: absolute;
+  display: inline-block;
+  font-size: 30px;
+  margin: 0;
+  height: 35px;
+  right: 375px;
+}
+
+.body_icon img{
+  margin-left: 12px;
+}

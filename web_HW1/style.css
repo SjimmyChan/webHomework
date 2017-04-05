@@ -1,0 +1,148 @@
+body{
+  background-color: #EDF2C5;
+}
+
+.content{
+  width: 940px;
+  margin:auto;
+  padding-top: 53px;
+}
+
+header{
+  color: #889C5B;
+  font-size: 44px;
+  font-family: Arial Black;
+}
+
+.headr{
+  position: relative;
+}
+
+.btn{
+  top: 39px;
+  right: 0px;
+  height: 25px;
+  position: absolute;
+}
+
+.fb_ig, .login_join{
+  vertical-align: top;
+  display: inline-block;
+}
+
+.fb_ig img{
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+.login_join{
+  border-left: 1px;
+  border-left-color: #898989;
+  border-left-style: solid;
+}
+
+.login_join button{
+  margin: 0px 0px 0px 9px;
+  color: #75874F;
+  height: 25px;
+  background-color: #EDF2C5;
+  border: #75874F 1px solid; 
+  border-radius: 3px;
+}
+
+.index{
+  color: #EDF2C5;
+  font-size: 16px;
+  font-family: Arial Black;
+  background-color: #889C5B;
+  border-radius: 3px;
+}
+
+.index ul li{
+  display: inline-block;
+  padding: 16px 30px 16px 30px;
+}
+
+.Vegetable, .Contact{
+  vertical-align: top;
+  width: 445px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.Vegetable ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.Vegetable ul li{
+  display: inline-block;
+}
+
+.veg_title, .con_title {
+  color: #EDF2C5;
+  font-size: 16px;
+  font-family: Arial Black;
+  background-color: #889C5B;
+  width: 445px;
+  box-sizing: border-box;
+  padding: 16px 0px 16px 31px;
+  border-radius: 3px;
+}
+
+.Vegetable{
+  margin-right: 46px;
+}
+
+.veg_content{
+  margin-top: 15px; 
+}
+
+.veg_content img:not(:last-child){
+  width: 140px;
+  margin-right: 8px;
+}
+
+.Contact ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.Contact ul li{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.con_content{
+  color:#898989;
+  font-size: 12px;
+  font-family: Arial;
+  padding: 13px;
+}
+
+.Line{
+  border-bottom: 1px;
+  border-bottom-color: #898989;
+  border-bottom-style: solid;
+}
+
+footer{
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 24px;
+  color:#EDF2C5;
+  font-size: 12px;
+  font-family: Arial Black;
+  width: 1264px;
+  background-color: #889C5B;
+  border-radius: 3px;
+}
+
+.clear:after{
+  content: "";
+  display: block;
+  clear: both;
+}
