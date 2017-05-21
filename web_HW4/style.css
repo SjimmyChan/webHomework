@@ -25,8 +25,7 @@ body{
 }
 
 .header_options{
-  float: right;
-  font-size: 40px;
+  font-size: 25px;
   margin-right: 35px;
 }
 
@@ -71,10 +70,10 @@ footer > .container > p {
 
 .block{
   position: absolute;
-  line-height: 300%;
-  font-size: 60px;
+  min-height: 300px;
+  font-size: 50px;
   color: white;
-  width: 46%;
+  width: 80%;
   padding: 2%;
   height: 92%;
   background: -webkit-linear-gradient(left, rgba(0,0,0,0.7) 0%,rgba(125,185,232,0) 100%);
@@ -83,20 +82,21 @@ footer > .container > p {
 .block.right {
   background: -webkit-linear-gradient(right, rgba(0,0,0,0.7) 0%,rgba(125,185,232,0) 100%);
   right: 0;
+  padding-right: 2%;
 }
 
 .block_content{
   position: absolute;
-  line-height: 300%;
   font-size: 30px;
   color: white;
-  width: 50%;
-  padding: 10% 2% 2% 2%;
-  height: 92%;
+  width: 65%;
+  padding-top: 10%;
+  padding-left: 2%;
 }
 
 .block_content.right{
   right: 0;
+  padding-right: 2%;
 }
 
 footer > .container {
@@ -117,9 +117,55 @@ footer > .container {
   font-size: 30px;
   margin: 0;
   height: 35px;
-  right: 375px;
+  right: 50%;
 }
 
 .body_icon img{
   margin-left: 12px;
+}
+
+@media only screen and (max-width: 768px){
+
+.block_content{
+  font-size: 20px;
+}
+
+.block{
+  min-height: 200px;
+  font-size: 30px;
+}
+
+.body_icon p {
+  font-size: 20px;
+}
+
+footer > .container {
+  font-size: 15px !important;
+}
+
+.body_icon p{
+  right: 100px;
+}
+
+}
+
+@media only screen and (max-width: 320px){
+
+.block_content{
+  font-size: 8px;
+}
+
+.block{
+  min-height: 50px;
+  font-size: 15px;
+}
+
+.body_icon p {
+  font-size: 8px;
+}
+
+footer > .container {
+  font-size: 8px !important;
+}
+
 }
